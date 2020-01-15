@@ -7,3 +7,20 @@
   flex: 1;
   text-align: center
 }
+.seachInput{
+  width: 100%;
+  background-color: #EA4350;
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.seachContent{
+  width: 700rpx;
+  height: 80rpx;
+  background-color: #fff;
+  border-radius: 5rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

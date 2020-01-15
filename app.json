@@ -1,13 +1,39 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/domo/domo",
+    "pages/domos/domos"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#e9434f",
+    "navigationBarTitleText": "黑马优购",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor": "#e9434f",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "assets/icons/home.png",
+      "selectedIconPath": "assets/icons/home-o.png"
+    },{
+      "pagePath": "pages/logs/logs",
+      "text": "分类",
+      "iconPath": "assets/icons/category.png",
+      "selectedIconPath": "assets/icons/category-o.png"
+    },{
+      "pagePath": "pages/domo/domo",
+      "text": "购物车",
+      "iconPath": "assets/icons/cart.png",
+      "selectedIconPath": "assets/icons/cart-o.png"
+    },{
+      "pagePath": "pages/domos/domos",
+      "text": "我的",
+      "iconPath": "assets/icons/my.png",
+      "selectedIconPath": "assets/icons/my-o.png"
+    }]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
